@@ -1,4 +1,29 @@
 body {
-    background: url(background-pic-quote.jpg) no repeat center center fixed;
+    background: url("backdrop.jpg.jpg") no-repeat center center fixed;
     background-size: cover;
+}
+
+h1 {
+    color: rgb(43, 8, 43);
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+div {
+    background-color: hsla(278, 10%, 73%, .2);
+    margin: 2em auto;
+    box-shadow: 10px 10px 20px;
+}
+p {
+    color: rgb(43, 8, 43);
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+}
+i {
+    transition: transform .4s ease-in-out;
+  }
+.fa-glass:hover {
+    transform: rotate(25deg);
+    color:black;
 }
